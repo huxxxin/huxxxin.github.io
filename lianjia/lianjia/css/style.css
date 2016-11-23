@@ -1,0 +1,63 @@
+a,a:hover{color:#555555;
+    text-decoration: none;}
+.header{
+    height: 260px;
+    background: url("../images/tu_05_01.png")no-repeat;
+    background-size:cover;
+    background-origin:border-box;
+    position: relative;
+}
+.header>.row-one{margin: 20px;}
+.header>.row-one .label{height: 50px;
+    border-radius: 20px;
+    background: #3d3d3d;
+    cursor: pointer;
+    padding: 5px 10px;}
+.header>.row-one>.options>ul{
+    width: 38px;
+    text-align: center;
+}
+.header>.row-one>.options>ul:first-child{
+    margin-right: -15px;
+}
+.row-two{text-align: center;
+    color: #ffffff;
+    font-family:"微软雅黑"; }
+.row-two>h1{font-weight: bold;}
+/*第三行*/
+.row-three{
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    bottom:10px;}
+/*第二部分*/
+.buys{padding-top:22px;
+    border-bottom: 1px solid #c5c5c5;}
+.buys ul{height: 120px;
+    width: 55px;
+    text-align: center;
+    margin: auto;}
+.buys ul>li:last-child{
+    margin-top: 5px;
+}
+/*第三部分 图片轮播*/
+.carousels{
+    margin:0 -15px ;
+    padding: 10px 0;
+    background: #f4f4f4;
+    border-bottom: 1px solid #c5c5c5;
+}
+.carousels img{width: 100%;}
+/*第四部分*/
+.list-header{height: 48px;
+    line-height: 48px;
+    padding: 0 15px;}
+.house-list>.list-content>.media{
+    padding: 15px 10px;
+    border-top: 1px solid #c5c5c5;
+    margin: 0;
+}
+.house-list>.list-content>.media .media-heading{
+    font-weight: bold;
+    margin: 0;  }
+
