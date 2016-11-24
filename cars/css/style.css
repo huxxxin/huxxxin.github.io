@@ -1,0 +1,86 @@
+*{margin:0;
+    padding:0;}
+}
+a,a:hover{
+    text-decoration: none;}
+#header{
+    height: 66px;
+    background: #ff5719;
+    overflow: hidden;}
+#header_right{float: right;}
+#img_one{margin:0  5px 0 15px;}
+#img_two{margin-left:5px;}
+#img_right_one,#img_right_two{float:right;
+    margin-right:20px;
+    margin-top:18px;}
+label{font-size: 12px;
+    color:#ffffff;
+    font-weight:100;
+    line-height: 66px;
+    margin-left:5px;}
+/* 图片轮播*/
+.carousels{
+    margin:0 -15px ;
+}
+.carousels img{width: 100%;}
+/*第三部分*/
+.buys{padding-top:22px;
+    border-bottom: 1px solid #c5c5c5;}
+.buys ul{height: 105px;
+    width: 80px;
+    text-align: center;
+    margin: auto;}
+.buys ul>li{text-align: center;}
+.buys ul>li>img{width: 70px;
+    height: 70px;}
+.buys ul>li:last-child{
+    margin-top: 5px;
+}
+/*第四部分*/
+#red{width: 3px;height: 16px;
+    background: #f65a27;
+    margin: 16px 5px 0 0;
+    float: left;}
+.list-header{height: 48px;
+    line-height: 48px;
+    padding: 0 15px;
+    font-weight: bold;}
+.list-header>span{font-size: 15px;
+    font-weight: bold;
+    color: #f65a27;
+    float: right;}
+.house-list>.list-content>.media{
+    padding: 15px 10px;
+    border-top: 1px solid #c5c5c5;
+    margin: 0;
+}
+.house-list>.list-content>.media .media-heading{
+    font-weight: bold;
+    margin: 0;  }
+h6{margin: 0; 
+    line-height: 20px;
+    color: #9a9a9a;}
+/*small{line-height: 40px;}*/
+.media-left>img{
+    width: 140px;
+    height: 90px;
+}
+h6>span{color: #f65a27;
+    font-weight: bold;
+    font-size: 14px;}
+#green{width: 60px;
+    height: 25px;
+    line-height: 25px;
+    background:#62b160; 
+    color: #ffffff;
+    margin-top: 5px;}
+/*底部*/
+#one,#two,#three,#four{width: 36px;
+    height: 30px;}
+.bottom{
+    overflow: hidden;
+    height: 70px;
+    background: #e7ebec;
+    border-top:1px solid #bfc3c4;
+}
+.bom>ul{margin-top: -10px;}
